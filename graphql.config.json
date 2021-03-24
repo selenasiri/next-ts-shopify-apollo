@@ -1,0 +1,21 @@
+{
+	"overwrite": true,
+	"generates": {
+		"models/shopify.model.ts": {
+			"schema": [
+				{
+					"https://yinglu91-app2.myshopify.com/api/2021-01/graphql.json": {
+						"headers": {
+							"X-Shopify-Storefront-Access-Token": "81bb4a22b3bd5bea0f9db968354bc66c"
+						}
+					}
+				}
+			],
+			"documents": "services/**/*.{ts,tsx}",
+			"plugins": [
+				"typescript",
+				"typescript-operations"
+			]
+		}
+	}
+}
