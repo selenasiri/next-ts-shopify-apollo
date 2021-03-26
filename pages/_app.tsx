@@ -10,11 +10,11 @@ import {
 
 const client = new ApolloClient({
   link: new HttpLink({
-    uri: `https://yinglu91-app2.myshopify.com/api/2021-01/graphql.json`,
+    uri: `https://the-sun-shop-partners.myshopify.com/api/2021-01/graphql.json`,
     headers: {
-      'X-Shopify-Storefront-Access-Token': '81bb4a22b3bd5bea0f9db968354bc66c',
-      'Content-Type': 'application/graphql',
-    }
+      'X-Shopify-Storefront-Access-Token': 'e178b48df350961056582af5b458a10d',
+      'Content-Type': 'application/json',
+    },
   }),
 
   cache: new InMemoryCache()

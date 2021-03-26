@@ -69,7 +69,7 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
 
 // Next.js: 
 // $npm run dev 
