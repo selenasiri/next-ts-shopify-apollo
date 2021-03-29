@@ -57,7 +57,7 @@ const Home = () => {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://yinglu91-app2.myshopify.com/api/2021-01/graphql.json"
           target="_blank"
           rel="noopener noreferrer"
         >

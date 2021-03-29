@@ -10,9 +10,9 @@ import {
 
 const client = new ApolloClient({
   link: new HttpLink({
-    uri: `https://the-sun-shop-partners.myshopify.com/api/2021-01/graphql.json`,
+    uri: `https://siri-shop-123.myshopify.com/api/2021-01/graphql.json`,
     headers: {
-      'X-Shopify-Storefront-Access-Token': 'e178b48df350961056582af5b458a10d',
+      'X-Shopify-Storefront-Access-Token': 'cd94bd383d8460e9be5ffc4dd2c855d4',
       'Content-Type': 'application/json',
     },
   }),
